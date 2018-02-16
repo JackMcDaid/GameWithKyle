@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Room here.
+ * It's a rooom
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author JM & KA 
+ * @version 0.01
  */
 public class Room
 {
