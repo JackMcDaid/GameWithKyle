@@ -14,13 +14,13 @@ public class Item
     /**
      * Constructor for objects of class Item
      */
-    private Item()
+    public Item()
     {
         // initialise instance variables
         name="Basic";
         desc="Basic";
     }
-    private Item(String name, String desc){
+    public Item(String name, String desc){
         this.name=name;
         this.desc=desc;
     }
