@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Item here.
+ * It's an Item
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author JM and KA
+ * @version 2/16/2018
  */
 public class Item
 {
@@ -14,22 +14,25 @@ public class Item
     /**
      * Constructor for objects of class Item
      */
-    public Item()
+    private Item()
     {
         // initialise instance variables
         name="Basic";
         desc="Basic";
     }
-
+    private Item(String name, String desc){
+        this.name=name;
+        this.desc=desc;
+    }
     /**
      * An example of a method - replace this comment with your own
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @param
+     * @return
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void observe(){
+        System.out.println();
+        System.out.println("This appears to be: "+name);
+        System.out.println(desc);
     }
 }
